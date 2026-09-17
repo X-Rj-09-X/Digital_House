@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Proyecto Diseño Web Digital House</title>
+
+
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+
+    <form method="get">
+        <!-- Los atributos para maximos y minimos varian del tipo de input, para texto seria minlength y maxlength, pero para tipo numero y fecha tambien seria min y max -->
+        <label for="name">Escribe tu nombre:</label>
+        <input type="text" name="name" id="name" value="Ricardo" minlength="2" maxlength="5"> 
+        <br>
+        <br>
+        <label for="number">Numero desde el 1 hasta el 10:</label>
+        <input type="number" name="number" id="number" min="1" max="10">
+        <br>
+        <br>
+        <label for="date">Seleccionar fecha entre 1990 hasta 2020</label>
+        <input type="date" name="date" id="date" min="1990-01-01" max="2020-12-31">
+        <br>
+        <br>
+        <label for="range">Seleccione un rango:</label>
+        <input type="range" name="range" id="range" min="1" max="5">
+        <br>
+        <br>
+        <label for="file">Seleccione archivos:</label>
+        <input type="file" name="file" id="file" multiple>
+        <br>
+        <br>
+        <label for="code">Digite codigo del pais:</label>
+        <input type="text" name="code" id="code" pattern="[A-Z]{3}">
+        <br>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Escribe tu nombre" required autocomplete="off">
+        <input type="text" name="lastname" id="lastname" placeholder="Escribe tu apellido" required>
+        <input type="text" name=job" id="job" placeholder="Escribe tu Trabajo" autofocus>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+div{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    text-indent: 50px; /* usado para hacer sangria */
+    letter-spacing: 1.3px; /* usado para darle espaciado a las letras */
+    line-height: 1.5; /* espaciado entre lineas */
+    word-spacing: 3px; /* espaciado entre letras */
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+

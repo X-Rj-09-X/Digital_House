@@ -1,0 +1,63 @@
+#Titulo-principal {
+    color: aqua;
+}
+
+#Titulo-secundario{
+    color: pink;
+
+}
+
+.azul{
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.rojo {
+    color: red;
+
+ }
+
+ p.rojo{
+    text-align: center;
+ }
+
+ .fondo-verde{
+    background-color: green;
+ }
+
+ h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+body{
+    background-color: black;
+}
+
+p {
+    font-size: larger;
+}
+
+/* <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetacion web</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <h1 id="Titulo-principal">Titulo al cual le daremos formato</h1>
+
+    <h1 id="Titulo-secundario">Otro Titulo</h1>
+
+    <p class="rojo">Este es un parrafo</p>
+
+    <h3 class="azul">Titulo mas pequeño</h3>
+
+    <p class="azul">Otro parrafo</p>
+    
+    <h1 class="rojo fondo-verde">Otro titulo mas</h1>
+</body>
+</html>*/
+

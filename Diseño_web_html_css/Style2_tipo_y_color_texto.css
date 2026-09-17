@@ -1,0 +1,65 @@
+div{
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    border: 2px solid black;
+    padding: 20px;
+    text-decoration: underline blue wavy;
+}
+
+.Overline{
+    text-decoration-line: none;
+    text-decoration-color: red;
+}
+
+.Line-through{
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+}
+
+.Underline{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.Mix{
+    text-decoration-line: underline overline;
+
+}
+
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maquetacion web</title>
+    <link rel="stylesheet" href="Style2.css">
+
+
+</head>
+
+<body>
+    
+    <h1>Formateo de texto</h1>
+
+    <div class="Overline">
+        Overline
+    </div>
+
+    <div class="Line-through">
+        Line throuhg
+    </div>
+
+    <div class="Underline">
+        Underline
+    </div>
+    
+    <div class="Mix">
+        Mix
+    </div>
+
+
+</body>
+</html>
+*/

@@ -1,0 +1,41 @@
+div{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    text-indent: 50px; /* usado para hacer sangria */
+    letter-spacing: 1.3px; /* usado para darle espaciado a las letras */
+    line-height: 1.5; /* espaciado entre lineas */
+    word-spacing: 3px; /* espaciado entre letras */
+}
+
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maquetacion web</title>
+    <link rel="stylesheet" href="Style4.css">
+
+
+</head>
+
+<body>
+    
+    <h1>Formateo de texto</h1>
+
+
+    <h4>Espaciado de texto</h4>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde necessitatibus dolorem eum debitis, velit ex maiores voluptas possimus, quo qui architecto quam cupiditate quos, harum eligendi libero. Magnam, numquam totam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fuga illo ab! Voluptatibus, nulla et? Fugit, minus repellat veritatis commodi accusantium eos, temporibus eligendi, exercitationem nostrum quibusdam expedita cupiditate soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores expedita laborum placeat, molestiae quia minus aut esse velit non nemo reiciendis exercitationem tempore quam laudantium quos provident architecto nobis sed.</p>
+    </div>
+
+
+</body>
+</html>
+*/
