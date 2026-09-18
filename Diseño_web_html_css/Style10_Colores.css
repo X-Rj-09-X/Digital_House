@@ -1,0 +1,23 @@
+/* Colores/ color_name */
+body{
+    background-image: url(ac5152b9f7f50781b2b01e35463fc4e6.jpg);
+    background-repeat: no-repeat; /*para que no repita la imagen*/
+    background-position: right top; /*colocar la imagen en la posicion de arriba derecho*/
+    background-attachment: fixed; /*quede estatica la imagen*/
+    background-size: cover; /*para cubrir toda la pagina con la imagen*/
+
+}
+
+p{
+    color: rgb(204, 255, 0);
+    background-image: black;
+}
+h1{
+    color: firebrick;
+    background-color: black;
+}
+
+h4{
+    color: rgb(1, 1, 255);
+    background-color: rgba(0.5, 78, 25);
+}
