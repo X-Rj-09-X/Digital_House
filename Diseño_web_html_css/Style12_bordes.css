@@ -1,0 +1,80 @@
+div{
+    border-width: 5px;
+    border-color: red ;
+    border-radius: 12px;
+}
+
+.solid{
+    width: 200px;
+    height: 50px;
+    border: 2px solid blue;
+
+}
+
+.dotted{
+    width: 200px;
+    height: 50px;
+    border-style: dotted;
+}
+
+.dashed{
+    width: 200px;
+    height: 50px;
+    border-style: dashed;
+}
+
+.double{
+    width: 200px;
+    height: 50px;
+    border-style: double;
+}
+
+.groove{
+    width: 200px;
+    height: 50px;
+    border-style: groove;
+}
+
+.ridge{
+    width: 200px;
+    height: 50px;
+    border-style: ridge;
+}
+
+.inset{
+    width: 200px;
+    height: 50px;
+    border-style: inset;
+}
+
+.outset{
+    width: 200px;
+    height: 50px;
+    border-style: outset;
+}
+
+.none{ /*no hay*/
+    width: 200px;
+    height: 50px;
+    border-style: none;
+}
+
+.hidden{ /*osculto*/
+    width: 200px;
+    height: 50px;
+    border-style: hidden;
+}
+
+.mix{
+    width: 200px;
+    height: 50px;
+    border-style: dotted dashed solid double;
+}
+
+
+
+
+
+p{
+    text-align: center;
+}
